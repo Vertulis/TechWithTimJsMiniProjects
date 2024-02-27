@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding: 10px;
+    border: 1px solid black;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+button{
+    padding:5px;
+    width:80px;
+    box-shadow: 1px 2px 5px grey;
+    color: white;
+    border-radius: 5px;
+}
+#red{
+    background-image: linear-gradient(rgb(252, 87, 87), red);
+}
+#green{
+    background-image: linear-gradient(rgb(57, 194, 57), green);
+}
+#blue{
+    background-image: linear-gradient(rgb(87, 87, 249), blue);
+}
+#random{
+    background-image: linear-gradient(rgb(86, 86, 86), black);
+}
